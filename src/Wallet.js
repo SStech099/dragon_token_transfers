@@ -5,7 +5,7 @@ import dragon_token from "./abi/dragon_token.json";
 import Interactions from "./Interactions";
 
 const Wallet = () => {
-  let contractAddress = "0x3ACd76C97B1Ed111c7aB895F39Bd98057F4d2A7E";
+  let contractAddress = "0x6C3167F948D021F55d2Df3594B21462833b99c2a";
 
   const [errorMessage, setErrorMessage] = useState(null);
   const [defaultAccount, setDefaultAccount] = useState(null);
